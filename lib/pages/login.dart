@@ -67,7 +67,7 @@ class _LoginPageState extends State<LoginPage> {
                         keyboardType: TextInputType.text,
                         validator: (val) {
                           if (val!.isEmpty) {
-                            return "Введите корректный логин или зарегистрируйтесь";
+                            return "Введите корректный номер телефона или зарегистрируйтесь";
                           } else {}
                         },
                         decoration: const InputDecoration(
