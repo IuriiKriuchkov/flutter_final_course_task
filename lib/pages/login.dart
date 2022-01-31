@@ -23,7 +23,6 @@ class _LoginPageState extends State<LoginPage> {
     setState(() {
       _userInfo = (prefs.getStringList('userInfo') ?? ['admin', 'admin']);
     });
-    print(_userInfo);
   }
 
   @override
@@ -51,7 +50,7 @@ class _LoginPageState extends State<LoginPage> {
                   height: 24,
                 ),
                 Text(
-                  'Добро пожаловать в приложение!',
+                  'Добро пожаловать в приложение',
                   style: Theme.of(context).textTheme.headline4,
                   textAlign: TextAlign.center,
                 ),

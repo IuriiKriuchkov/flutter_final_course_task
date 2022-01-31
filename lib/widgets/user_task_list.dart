@@ -36,8 +36,11 @@ class TaskList extends StatelessWidget {
                 );
               });
         } else {
-          return const Center(
-            child: CircularProgressIndicator(),
+          return const Padding(
+            padding: EdgeInsets.all(10),
+            child: Center(
+              child: CircularProgressIndicator(),
+            ),
           );
         }
       },
